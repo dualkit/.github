@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/dualkit/dualkit"><img src="https://raw.githubusercontent.com/dualkit/dualkit/main/.github/assets/banner.png" alt="Dualkit. Build for the Gulf. In both directions." width="100%"></a>
+  <a href="https://github.com/dualkit/dualkit"><img src="https://raw.githubusercontent.com/dualkit/dualkit/main/.github/assets/banner.jpg" alt="Dualkit. Build for the Gulf. In both directions. A desert at dusk." width="100%"></a>
 </p>
 
 Free, open-source tools for products that ship in Arabic and English.
