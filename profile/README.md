@@ -8,7 +8,7 @@ Free, open-source tools for products that ship in Arabic and English.
 - **[Format](https://github.com/dualkit/dualkit/tree/main/packages/format)** handles all six Gulf currencies, Hijri dates, Arabic numerals, phone numbers and IBANs for all six GCC countries, the Emirates ID, the Saudi VAT number and Gulf weekends, with no dependencies.
 - **[Starter](https://github.com/dualkit/dualkit/tree/main/packages/starter)** is a bilingual design system to fork, one token file for code and Figma.
 - **[Check](https://github.com/dualkit/dualkit/tree/main/packages/cli)** audits any page for Arabic and right-to-left bugs and writes a shareable report: `npx dualkit check <url>`. A GitHub Action runs it on every pull request.
-- **[Lint](https://github.com/dualkit/dualkit/tree/main/packages/lint)** reads your CSS, Tailwind classes and Intl calls and flags right-to-left bugs before anything renders, with no browser: `npx dualkit@beta lint .`
+- **[Lint](https://github.com/dualkit/dualkit/tree/main/packages/lint)** reads your CSS, Tailwind classes, Vue and Svelte components, CSS-in-JS and Intl calls and flags right-to-left bugs before anything renders, with no browser: `npx dualkit@beta lint .`
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dualkit/dualkit/main/.github/assets/check-report-dark.png">
