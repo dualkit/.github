@@ -4,11 +4,12 @@
 
 Free, open-source tools for products that ship in Arabic and English.
 
-- **[Skills](https://github.com/dualkit/dualkit/tree/main/plugin/skills)** teach Claude Code and Cursor to get Arabic right: RTL layout, type pairing, Gulf formats and bilingual copy. They are listed in the Claude plugin directory.
+- **[Skills](https://github.com/dualkit/dualkit/tree/main/plugin/skills)** teach Claude Code and Cursor to get Arabic right: RTL layout, type pairing, Gulf formats, bilingual copy and converting an English app. They are listed in the Claude plugin directory.
 - **[Format](https://github.com/dualkit/dualkit/tree/main/packages/format)** handles all six Gulf currencies, Hijri dates, Arabic numerals, phone numbers and IBANs for all six GCC countries, the Emirates ID, the Saudi VAT number and Gulf weekends, with no dependencies.
 - **[Starter](https://github.com/dualkit/dualkit/tree/main/packages/starter)** is a bilingual design system to fork, one token file for code and Figma.
 - **[Check](https://github.com/dualkit/dualkit/tree/main/packages/cli)** audits any page for Arabic and right-to-left bugs and writes a shareable report with 34 rules: `npx dualkit check <url>`. An experimental `--review` option adds a vision model that reads the screenshot. A GitHub Action runs it on every pull request.
 - **[Lint](https://github.com/dualkit/dualkit/tree/main/packages/lint)** reads your CSS, Tailwind classes, Vue and Svelte components, CSS-in-JS and Intl calls and flags right-to-left bugs before anything renders, with no browser: `npx dualkit@beta lint .`
+- **[Convert](https://github.com/dualkit/dualkit/tree/main/packages/convert)** turns an English React or Next.js app into an Arabic one on a new git branch, bilingual or Arabic only, and checks that English still looks the same: `npx dualkit@beta convert --mode bilingual`
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dualkit/dualkit/main/.github/assets/check-report-dark.png">
